@@ -1,15 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.main')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Berita</title>
-</head>
-
-<body>
-    <h1>Berita Terkini</h1>
-    <p>This is a simple news page for the Laravel application.</p>
-</body>
-
-</html>
+@section('title', 'Berita')
+@section('content')
+<h1>Judul Berita</h1>
+<h3>Penulis Berita</h3>
+<p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+@endsection

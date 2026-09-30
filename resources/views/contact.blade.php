@@ -1,15 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.main')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-</head>
+@section('title', 'Contact')
 
-<body>
-    <h1>Contact Us</h1>
-    <p>This is a simple contact page for the Laravel application.</p>
-</body>
-
-</html>
+@section('content')
+<h1>Halaman Kontak</h1>
+<p>This is the contact page for our application.</p>
+@endsection

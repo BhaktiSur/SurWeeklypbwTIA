@@ -1,15 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.main')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
-</head>
+@section('title', 'Profile')
 
-<body>
-    <h1>User Profile</h1>
-    <p>This is a simple profile page for the Laravel application.</p>
-</body>
-
-</html>
+@section('content')
+<h1>HALAMAN PROFILE</h1>
+<p>Nama : {{ $name }}</p>
+<p>NIM : {{ $nim }}</p>
+<p>Prodi : {{ $prodi }}</p>
+<img src="{{ $gambar }}" alt="Profile Image" width="200">
+@endsection

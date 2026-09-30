@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.main')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-</head>
-
-<body>
-    <h1>Welcome to the Home Page</h1>
-    <p>This is a simple home page for the Laravel application.</p>
-
-</body>
-
-</html>
+@section('title', 'Home')
+@section('content')
+<h1>Home</h1>
+<p>Ini adalah halaman utama Web Saya.</p>
+@endsection
