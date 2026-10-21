@@ -8,5 +8,5 @@
 <div class="text-justify">
     <p>{{ $singlenews['konten'] }}</p>
 </div>
-<a href="/Berita" class="btn btn-secondary">Kembali</a>
+<a href="/berita" class="btn btn-secondary">Kembali</a>
 @endsection
