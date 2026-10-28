@@ -3,33 +3,17 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class Berita extends Model
 {
+    use HasFactory;
 
-    // public static function ambildata()
-    // {
-    //     return self::$data_berita;
-    // }
-
-    // public static function getberita($slug)
-    // {
-    //     $beritas = self::$data_berita; ///ambil semua data berita
-    // $singlenews = [];
-
-    // foreach ($beritas as $berita) {
-    //     if ($berita["slug"] === $slug) {
-    //         $singlenews = $berita;
-    //     }
-    // }
-
-    //     return $singlenews;
-    // }
-
-    // public static function getjudul($slug)
-    // {
-    //     $berita = self::getberita($slug);
-    //     $judul = $berita["judul"];
-    //     return $judul;
-    // }
+    protected $fillable = [
+        'judul',
+        'slug',
+        'penulis',
+        'konten',
+        'date',
+    ];
 }
